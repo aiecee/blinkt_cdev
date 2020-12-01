@@ -1,0 +1,20 @@
+[package]
+name = "blinkt_cdev"
+version = "0.1.0"
+authors = ["mcollinge <mattycov@googlemail.com>"]
+edition = "2018"
+
+[lib]
+name = "blinkt_cdev"
+path = "src/lib.rs"
+
+[[bin]]
+name = "blink_cdev_example"
+path = "src/example.rs"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+gpio-cdev = "0.4.0"
+anyhow = "1.0.34"
+rand = "0.7.3"
