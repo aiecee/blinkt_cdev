@@ -26,3 +26,11 @@ let mut blinkt = Blinkt::new()?;
 blinkt.set_all_pixels(255, 0, 0, 1.0);
 blinkt.show()?;
 ```
+
+## Examples
+
+To run an example use the `cargo run --example [name]` command.
+
+Current examples:
+
+- `cargo run --example fade`
