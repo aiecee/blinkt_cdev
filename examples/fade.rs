@@ -9,6 +9,8 @@ pub fn main() -> Result<()> {
     let mut brightness: f32 = 0.0;
     let mut brightness_change = 0.1;
     let mut rng = rand::thread_rng();
+    blinkt.set_all_pixels(255, 0, 0, 1.0);
+    blinkt.show()?;
     for pixel in 0..8 {
         blinkt.set_pixel(pixel, rng.gen(), rng.gen(), rng.gen(), brightness);
         blinkt.show()?;

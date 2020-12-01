@@ -3,10 +3,11 @@ name = "blinkt_cdev"
 version = "0.1.0"
 authors = ["mcollinge"]
 edition = "2018"
-license = "MIT"
+license-file = "LICENSE"
+readme = "README.md"
+homepage = "https://github.com/mcollinge/blinkt_cdev"
 repository = "https://github.com/mcollinge/blinkt_cdev"
 documentation = ""
-homepage = "https://github.com/mcollinge/blinkt_cdev"
 description = "Interface for Pimoroni Blinkt! for Raspberry Pi."
 categories = ["embedded", "hardware-support"]
 keywords = ["blinkt", "raspberry", "pi"]
@@ -24,4 +25,6 @@ path = "src/example.rs"
 [dependencies]
 gpio-cdev = "0.4.0"
 anyhow = "1.0.34"
+
+[dev-dependencies]
 rand = "0.7.3"
