@@ -16,9 +16,9 @@ pub fn main() -> Result<()> {
         blinkt.show()?;
     }
     for _ in 0..100 {
-        if brightness == 1.0 {
+        if brightness >= 1.0 {
             brightness_change = -0.1;
-        } else if brightness == 0.0 {
+        } else if brightness <= 0.0 {
             brightness_change = 0.1;
         }
         brightness += brightness_change;
