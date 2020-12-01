@@ -1,8 +1,15 @@
 [package]
 name = "blinkt_cdev"
 version = "0.1.0"
-authors = ["mcollinge <mattycov@googlemail.com>"]
+authors = ["mcollinge"]
 edition = "2018"
+license = "MIT"
+repository = "https://github.com/mcollinge/blinkt_cdev"
+documentation = ""
+homepage = "https://github.com/mcollinge/blinkt_cdev"
+description = "Interface for Pimoroni Blinkt! for Raspberry Pi."
+categories = ["embedded", "hardware-support"]
+keywords = ["blinkt", "raspberry", "pi"]
 
 [lib]
 name = "blinkt_cdev"
